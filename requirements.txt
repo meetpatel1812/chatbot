@@ -2,3 +2,4 @@ vanna
 flask
 pyodbc
 mysql
+mysql-connector-python
