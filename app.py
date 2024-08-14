@@ -11,7 +11,7 @@ import mysql.connector
 from flask import Flask, jsonify, request
 
 # Initialize Vanna
-vn = VannaDefault(model='meet_model', api_key='d0cabdce2ea440b1a902ca99a2be8579')
+vn = VannaDefault(model='meet_model', api_key='')
 
 # Connect to MySQL
 conn = mysql.connector.connect(
